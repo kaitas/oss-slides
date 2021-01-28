@@ -1,11 +1,13 @@
-# 日本語使えないだろうか？
+# reveal-pon 素晴らしい
 
 reveal.js build system
 using GitHub eco systems.
 
+https://github.com/mikkame/reveal-pon
+
 ---
 
-# Usage 使い方!
+# Usage
 
 1. Click **Use this template** on GitHub
 2. edit **src/slide.md**
@@ -16,10 +18,10 @@ using GitHub eco systems.
 ---
 # 使い方!
 
-1. Github reveal-pon のリポジトリで **Use this template** をクリック
+1. [reveal-pon](https://github.com/mikkame/reveal-pon) のリポジトリで **Use this template** をクリック
 2. **src/slide.md** を編集
 3. コミットすると ci が自動で走ります
-4. Github Pages を 有効 にする (Settings > GitHub Pages > Source : select gh-pages)
+4. Github Pages を 有効 にする (Settings > GitHub Pages > Source で gh-pages を選択)
 5. README.md を編集する (お好みで)
 
 ---
