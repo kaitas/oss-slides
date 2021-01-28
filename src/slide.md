@@ -6,7 +6,7 @@ using GitHub eco systems.
 
 ---
 
-# Usage
+# Usage 使い方!
 
 1. Click **Use this template** on GitHub
 2. edit **src/slide.md**
