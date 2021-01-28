@@ -15,5 +15,10 @@ using GitHub eco systems.
 
 ---
 
+# 日本語はいけるのだろうか
+
+qiitaの[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を参照した
+
+---
 
 # Let's try!
