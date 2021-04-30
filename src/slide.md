@@ -33,3 +33,9 @@ qiitaの[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を�
 ---
 
 # Let's try!
+
+---
+
+# セキュリティ更新
+[ssriに脆弱性があるそうで](https://github.com/advisories/GHSA-vx3p-948g-6vhq)、6.0.2にパッチする必要があります。
+
