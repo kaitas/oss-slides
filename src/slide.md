@@ -1,3 +1,8 @@
+# Sercuity Updates
+
+- [lodash@^4.17.21](https://github.com/kaitas/oss-slides/security/dependabot/yarn.lock/lodash/open)
+
+
 # reveal-pon 素晴らしい
 
 reveal.js build system
