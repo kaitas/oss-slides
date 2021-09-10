@@ -2,7 +2,6 @@
 
 - [lodash@^4.17.21](https://github.com/kaitas/oss-slides/security/dependabot/yarn.lock/lodash/open)
 
-
 # reveal-pon 素晴らしい
 
 reveal.js build system
@@ -21,6 +20,7 @@ https://github.com/mikkame/reveal-pon
 5. edit README.md(optional)
 
 ---
+
 # 使い方!
 
 1. [reveal-pon](https://github.com/mikkame/reveal-pon) のリポジトリで **Use this template** をクリック
@@ -33,7 +33,7 @@ https://github.com/mikkame/reveal-pon
 
 # 日本語はいけるのだろうか
 
-qiitaの[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を参照した
+qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を参照した
 
 ---
 
@@ -42,5 +42,14 @@ qiitaの[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を�
 ---
 
 # セキュリティ更新
-[ssriに脆弱性があるそうで](https://github.com/advisories/GHSA-vx3p-948g-6vhq)、6.0.2にパッチする必要があります。
 
+[ssri に脆弱性があるそうで](https://github.com/advisories/GHSA-vx3p-948g-6vhq)、6.0.2 にパッチする必要があります。
+
+---
+
+# 実際にこれでスライドを書く場合
+
+どうなるんだろうか
+他にもいろんなプラグインがあるから入れていきたい
+
+しかし講義スライドぐらいだったらこれで十分な気がするな
