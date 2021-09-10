@@ -1,4 +1,7 @@
 {
+  "resolutions": {
+    "lodash": "4.*"
+  },
   "scripts": {
     "build": "webpack",
     "build-gif": "node tools/screenshot.js",

@@ -87,3 +87,10 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 > gh run view
 
 とすると実行状態をコマンドラインでリアルタイムで確認することができる。
+
+<section data-markdown>
+  <script type="text/template">
+    - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+    - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+  </script>
+</section>
