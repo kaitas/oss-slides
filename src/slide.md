@@ -53,3 +53,27 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 他にもいろんなプラグインがあるから入れていきたい
 
 しかし講義スライドぐらいだったらこれで十分な気がするな
+
+# gh コマンドをインストールしてみた
+
+> brew install github/gh/gh
+
+当然だけど初回は認証が必要。
+
+> gh auth login
+
+上下キーで選んでエンターキーで決定。文字を打つとフィルターできる。会社の GitHub Enterprise (GHE)にも入れるっぽいぞ!
+とりあえず Github 個人アカウント、認証は HTTPS でやってみる。
+
+> ? Authenticate Git with your GitHub credentials? (Y/n)
+
+エンターすると
+
+> Login with a web browser
+
+となる。コンソールには 4 桁-4 桁 のコードが表示され、ブラウザで GitHub が表示されるので、そのコードを打ってアプリの権限を確認する。
+認証が終わったら GitHub からクローンした適当なローカルリポジトリで
+
+> gh issue list
+
+とすると issues が表示される。
