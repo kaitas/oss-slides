@@ -1,7 +1,3 @@
-# Sercuity Updates
-
-- [lodash@^4.17.21](https://github.com/kaitas/oss-slides/security/dependabot/yarn.lock/lodash/open)
-
 # reveal-pon 素晴らしい
 
 reveal.js build system
@@ -45,9 +41,13 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 
 [ssri に脆弱性があるそうで](https://github.com/advisories/GHSA-vx3p-948g-6vhq)、6.0.2 にパッチする必要があります。
 
+## Sercuity Updates
+
+- [lodash@^4.17.21](https://github.com/kaitas/oss-slides/security/dependabot/yarn.lock/lodash/open)
+
 ---
 
-# 実際にこれでスライドを書く場合
+## 実際にこれでスライドを書く場合
 
 どうなるんだろうか
 他にもいろんなプラグインがあるから入れていきたい
@@ -56,11 +56,11 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 
 ---
 
-# gh コマンドをインストールしてみた
+## gh コマンドをインストールしてみた
 
 > brew install github/gh/gh
 
-## 当然だけど初回は認証が必要。
+### 当然だけど初回は認証が必要。
 
 > gh auth login
 
@@ -76,7 +76,7 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 となる。コンソールには 4 桁-4 桁 のコードが表示され、ブラウザで GitHub が表示されるので、そのコードを打ってアプリの権限を確認する。
 認証が終わったら GitHub からクローンした適当なローカルリポジトリで
 
-## 動作確認
+### 動作確認
 
 > gh issue list
 
