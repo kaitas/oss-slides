@@ -54,11 +54,13 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 
 しかし講義スライドぐらいだったらこれで十分な気がするな
 
+---
+
 # gh コマンドをインストールしてみた
 
 > brew install github/gh/gh
 
-当然だけど初回は認証が必要。
+## 当然だけど初回は認証が必要。
 
 > gh auth login
 
@@ -74,6 +76,14 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 となる。コンソールには 4 桁-4 桁 のコードが表示され、ブラウザで GitHub が表示されるので、そのコードを打ってアプリの権限を確認する。
 認証が終わったら GitHub からクローンした適当なローカルリポジトリで
 
+## 動作確認
+
 > gh issue list
 
 とすると issues が表示される。
+
+このリポジトリ[oss-slides](https://github.com/kaitas/oss-slides/)の場合は、GitHub Actions でスライドをビルドしているので、
+
+> gh run view
+
+とすると実行状態をコマンドラインでリアルタイムで確認することができる。
