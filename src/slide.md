@@ -49,18 +49,42 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 しかし講義スライドぐらいだったらこれで十分な気がするな
 
 ---
+---
+### ページ１
+- - -
+上の破線のようなものは水平線
+こんな感じでガシガシ書いていきます
+
+**次は２ページ目**
+
+<aside class="notes">
+  発表者が見るノート   
+  伝えたいことをメモ  
+</aside>
+
+
+---
+### ページ２
+- - -
+1. 数字付きのリスト
+1. 番号はどうでもいい
+
+>>>
+### ページ２−１
+ページ２から垂直に下に遷移する  
+垂直遷移には補助的な説明を
+
+- 普通のリスト
+- 簡潔にね
+
+>>>
+### ページ２−２
+どんどん書いていく
+
+---
 
 ## gh コマンドをインストールしてみた
-                    <section data-markdown>
-                        <script type="text/template">
-                            ## Vertical Slide 1(Markdown)
-                        </script>
-                    </section>
-                    <section data-markdown>
-                        <script type="text/template">
-                            ## Vertical Slide 2(Markdown)
-                        </script>
-                    </section>
+
 > brew install github/gh/gh
 
 ### 当然だけど初回は認証が必要。
