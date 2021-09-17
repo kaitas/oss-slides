@@ -51,7 +51,16 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 ---
 
 ## gh コマンドをインストールしてみた
-
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## Vertical Slide 1(Markdown)
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## Vertical Slide 2(Markdown)
+                        </script>
+                    </section>
 > brew install github/gh/gh
 
 ### 当然だけど初回は認証が必要。
