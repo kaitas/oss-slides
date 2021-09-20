@@ -1,3 +1,10 @@
+<div class="reveal">
+      <div class="slides">
+        <section>Slide 1</section>
+        <section>Slide 2</section>
+      </div>
+    </div>
+
 # reveal-pon 素晴らしい
 
 reveal.js build system
@@ -49,9 +56,13 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 しかし講義スライドぐらいだったらこれで十分な気がするな
 
 ---
+
 ---
+
 ### ページ１
-- - -
+
+---
+
 上の破線のようなものは水平線
 こんな感じでガシガシ書いていきます
 
@@ -62,23 +73,29 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
   伝えたいことをメモ  
 </aside>
 
+---
+
+### ページ２
 
 ---
-### ページ２
-- - -
+
 1. 数字付きのリスト
 1. 番号はどうでもいい
 
->>>
-### ページ２−１
+> > >
+
+### ページ２ − １
+
 ページ２から垂直に下に遷移する  
 垂直遷移には補助的な説明を
 
 - 普通のリスト
 - 簡潔にね
 
->>>
-### ページ２−２
+> > >
+
+### ページ２ − ２
+
 どんどん書いていく
 
 ---
