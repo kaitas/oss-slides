@@ -56,7 +56,9 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 
 ---
 
-## <iframe width="560" height="315" src="https://www.youtube.com/embed/584sgzoJvu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/584sgzoJvu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### ページ１
 
@@ -103,6 +105,8 @@ vvv
 
 > brew install github/gh/gh
 
+vvv
+
 ### 当然だけど初回は認証が必要。
 
 > gh auth login
@@ -110,14 +114,20 @@ vvv
 上下キーで選んでエンターキーで決定。文字を打つとフィルターできる。会社の GitHub Enterprise (GHE)にも入れるっぽいぞ!
 とりあえず Github 個人アカウント、認証は HTTPS でやってみる。
 
+vvv
+
 > ? Authenticate Git with your GitHub credentials? (Y/n)
 
 エンターすると
+
+vvv
 
 > Login with a web browser
 
 となる。コンソールには 4 桁-4 桁 のコードが表示され、ブラウザで GitHub が表示されるので、そのコードを打ってアプリの権限を確認する。
 認証が終わったら GitHub からクローンした適当なローカルリポジトリで
+
+vvv
 
 ### 動作確認
 
@@ -125,11 +135,15 @@ vvv
 
 とすると issues が表示される。
 
+vvv
+
 このリポジトリ[oss-slides](https://github.com/kaitas/oss-slides/)の場合は、GitHub Actions でスライドをビルドしているので、
 
 > gh run view
 
 とすると実行状態をコマンドラインでリアルタイムで確認することができる。
+
+---
 
 <section data-markdown>
   <script type="text/template">
