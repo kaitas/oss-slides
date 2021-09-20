@@ -56,7 +56,9 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 
 ---
 
-## &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/584sgzoJvu0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/584sgzoJvu0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+---
 
 ### ページ１
 
@@ -103,6 +105,8 @@ vvv
 
 &gt; brew install github/gh/gh
 
+vvv
+
 ### 当然だけど初回は認証が必要。
 
 &gt; gh auth login
@@ -110,14 +114,20 @@ vvv
 上下キーで選んでエンターキーで決定。文字を打つとフィルターできる。会社の GitHub Enterprise (GHE)にも入れるっぽいぞ!
 とりあえず Github 個人アカウント、認証は HTTPS でやってみる。
 
+vvv
+
 &gt; ? Authenticate Git with your GitHub credentials? (Y/n)
 
 エンターすると
+
+vvv
 
 &gt; Login with a web browser
 
 となる。コンソールには 4 桁-4 桁 のコードが表示され、ブラウザで GitHub が表示されるので、そのコードを打ってアプリの権限を確認する。
 認証が終わったら GitHub からクローンした適当なローカルリポジトリで
+
+vvv
 
 ### 動作確認
 
@@ -125,11 +135,15 @@ vvv
 
 とすると issues が表示される。
 
+vvv
+
 このリポジトリ[oss-slides](https://github.com/kaitas/oss-slides/)の場合は、GitHub Actions でスライドをビルドしているので、
 
 &gt; gh run view
 
 とすると実行状態をコマンドラインでリアルタイムで確認することができる。
+
+---
 
 &lt;section data-markdown&gt;
   &lt;script type=&#34;text/template&#34;&gt;
