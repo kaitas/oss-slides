@@ -75,7 +75,9 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 1. 数字付きのリスト
 1. 番号はどうでもいい
 
-> > >
+Note: 垂直開始
+
+vvv
 
 ### ページ２ − １
 
@@ -84,8 +86,6 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 
 - 普通のリスト
 - 簡潔にね
-
-> > >
 
 ### ページ２ − ２
 
