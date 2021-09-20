@@ -1,10 +1,3 @@
-<div class="reveal">
-      <div class="slides">
-        <section>Slide 1</section>
-        <section>Slide 2</section>
-      </div>
-    </div>
-
 # reveal-pon 素晴らしい
 
 reveal.js build system
