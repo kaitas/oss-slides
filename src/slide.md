@@ -1,4 +1,6 @@
-# reveal-pon 素晴らしい
+# reveal.js を Github Actions でビルドする
+
+## reveal-pon 素晴らしい
 
 reveal.js build system
 using GitHub eco systems.
@@ -15,6 +17,8 @@ https://github.com/mikkame/reveal-pon
 4. Github Pages を 有効 にする (Settings > GitHub Pages > Source で gh-pages を選択)
 5. README.md を編集する (お好みで)
 
+vvv
+
 ## Usage
 
 1. Click **Use this template** on GitHub
@@ -22,6 +26,8 @@ https://github.com/mikkame/reveal-pon
 3. commit and push then run ci automatically.
 4. enable GitHub Pages (Settings > GitHub Pages > Source : select gh-pages)
 5. edit README.md(optional)
+
+vvv
 
 ## 日本語はいけるのだろうか
 
