@@ -151,3 +151,7 @@ vvv
     - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
   </script>
 </section>
+
+---
+
+https://revealjs.com/config/
