@@ -8,9 +8,8 @@ let deck = new Reveal({
     progress: true,
     plugins: [Markdown],
     dependencies: [
-    { src: 'reveal.js-plugins/embed-tweet/plugin.js' }
-    ]
-})
-deck.initialize({
+        { src: 'reveal.js-plugins/embed-tweet/plugin.js' }
+    ],
     plugins: [RevealEmbedTweet]
-});
+})
+deck.initialize();
