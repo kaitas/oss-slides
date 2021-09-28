@@ -2,13 +2,17 @@
 
 ---
 
+<div class="tweet" data-src="https://twitter.com/o_ob/status/1441589725597364228"></div>
+
+---
+
 - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
 - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
 - Item 3 <!-- .element: class="any-selector" -->
 
 ---
 
-## reveal-pon 素晴らしい
+## reveal-pon は 素晴らしい
 
 reveal.js build system
 using GitHub eco systems.

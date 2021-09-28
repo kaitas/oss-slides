@@ -11,4 +11,6 @@ let deck = new Reveal({
     { src: 'reveal.js-plugins/embed-tweet/plugin.js' }
     ]
 })
-deck.initialize();
+deck.initialize(
+    plugins: [RevealEmbedTweet]
+);
