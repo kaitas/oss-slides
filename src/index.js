@@ -4,6 +4,8 @@ import RevealEmbedTweet from 'reveal.js-plugins/embed-tweet/plugin.js';
 require('reveal.js/dist/reveal.css')
 require('reveal.js/dist/theme/black.css')
 let deck = new Reveal({
+    // `?`ボタンを押してヘルプを表示する
+    help: true,
     slideNumber: 'c/t',
     progress: true,
 //    plugins: [Markdown],
