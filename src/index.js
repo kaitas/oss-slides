@@ -3,7 +3,8 @@ import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
 import RevealEmbedTweet from 'reveal.js-plugins/embed-tweet/plugin.js';
 require('reveal.js/dist/reveal.css')
 require('reveal.js/dist/theme/black.css')
-let deck = new Reveal({
+let deck = new Reveal()
+deck.initialize({
  // https://qiita.com/takayu90/items/0af9bd125e6704803c0d#configuration   
  // スライドに矢印を表示する
  // (矢印とは移動できるスライドの方向を示す矢印 = control arrow)
@@ -136,5 +137,5 @@ let deck = new Reveal({
     slideNumber: 'c/t',
 //    plugins: [Markdown],
     plugins: [RevealEmbedTweet]
-})
-deck.initialize();
+
+});
