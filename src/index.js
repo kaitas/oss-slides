@@ -64,7 +64,74 @@ let deck = new Reveal({
   help: true,
 
   // スピーカーノート(speaker notes : 発表者用のスライド)を聞き手にも見せる
-    showNotes: false,
+    showNotes: true,
+
+
+  // 埋め込みコンテンツ(ビデオ/音楽/iframe)を自動的に再生する
+  // いずれの場合も、要素個別に設定されていればそちらを優先します
+  // - null: data-autoplayが指定されている場合のみ自動再生します
+  // - true: 自動再生します
+  // - false: 自動再生しません
+  autoPlayMedia: null,
+
+  // 自動的に次のスライドに遷移するまでの時間をミリ秒単位で指定します
+  // 自動遷移しない場合は0に設定してください
+  // スライド個別に設定したい場合は`data-autoslide`属性を指定します
+  autoSlide: 0,
+
+  // スライドの自動遷移が設定されている場合、
+  // ユーザーが操作したらスライドの自動遷移をやめる
+  autoSlideStoppable: true,
+
+  // スライドの自動遷移が設定されている場合、
+  // スライドの遷移に使うメソッドを指定する
+  autoSlideMethod: Reveal.navigateNext,
+
+  // スピーカーノートに表示されるカウントダウンタイマー
+  // スライド単位の秒数を指定する
+  defaultTiming: 120,
+
+  // マウスホイールでページを移動していい
+  mouseWheel: false,
+
+  // モバイル端末でアドレスバーを隠す
+  // 最近のブラウザではあまり効きません...
+  hideAddressBar: true,
+
+  // iframeのオーバーレイ表示のリンクを開く
+  // リンク毎に`data-preview-link`または`data-preview-link="false"`を指定することでも実現できます
+  previewLinks: false,
+
+  // スライド遷移アニメーション
+  // none / fade / slide / convex / concave / zoom
+  transition: 'slide',
+
+  // スライド遷移スピード
+  // default / fast / slow
+  transitionSpeed: 'default',
+
+  // スライド背景の遷移アニメーション
+  // none / fade / slide / convex / concave / zoom
+  backgroundTransition: 'fade',
+
+  // 遅延読み込みを開始する、表示中のスライドとの距離
+  // つまり、表示中のページがここで指定された枚数まで近づいたらコンテンツをロードする
+  viewDistance: 3,
+
+  // パララックス背景画像
+  parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+  // パララックス背景画像サイズ
+  parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+  // スライド毎に移動するパララックス背景画像のピクセル数
+  // - 指定されていない場合、自動計算されます
+  // - 無効にする場合、0を指定してください
+  parallaxBackgroundHorizontal: null,
+  parallaxBackgroundVertical: null,
+
+  // スライドに適用するCSSのボックスモデル
+  display: 'block'
   
     slideNumber: 'c/t',
 //    plugins: [Markdown],
