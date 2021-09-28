@@ -131,7 +131,7 @@ let deck = new Reveal({
   parallaxBackgroundVertical: null,
 
   // スライドに適用するCSSのボックスモデル
-  display: 'block'
+  display: 'block',
   
     slideNumber: 'c/t',
 //    plugins: [Markdown],
