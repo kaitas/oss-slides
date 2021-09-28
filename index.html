@@ -58,7 +58,17 @@ qiita の[この記事](https://qiita.com/mikkame/items/b0f144920aba95d1c2be)を
 
 ---
 
+## YouTube を埋め込む
+
 [![ #IVRC2020 グリー賞受賞「ネイバー・インベーダー」協賛企業レポート #IVRC](https://img.youtube.com/vi/584sgzoJvu0/0.jpg)](https://www.youtube.com/watch?v=584sgzoJvu0)
+
+#IVRC2020 グリー賞受賞「ネイバー・インベーダー」協賛企業レポート #IVRC
+
+vvv
+
+[![ #IVRC2020 グリー賞受賞「ネイバー・インベーダー」協賛企業レポート #IVRC](https://img.youtube.com/vi/584sgzoJvu0/0.jpg)](https://www.youtube.com/embed/584sgzoJvu0)
+
+Embed Player を埋め込む例
 
 vvv
 
