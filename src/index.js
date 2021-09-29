@@ -135,7 +135,7 @@ deck.initialize({
 //  display: 'block',
   
     slideNumber: 'c/t',
-//    plugins: [Markdown],
+    plugins: [Markdown],
     plugins: [RevealEmbedTweet]
 
 });
