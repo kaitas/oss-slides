@@ -52,7 +52,7 @@ deck.initialize({
   shuffle: false,
 
   // フラグメントを有効にする(ページ内で要素を表示制御できる機能)
-  fragments: true,
+  fragments: false,
 
   // フラグメントをURLに含める(history:trueの場合のみ有効)
   // リンクでフラグメントが中途半端な状態のスライドを読み込むことができるようになります
@@ -65,7 +65,7 @@ deck.initialize({
   help: true,
 
   // スピーカーノート(speaker notes : 発表者用のスライド)を聞き手にも見せる
-    showNotes: true,
+    showNotes: false,
 
 
   // 埋め込みコンテンツ(ビデオ/音楽/iframe)を自動的に再生する
@@ -78,26 +78,26 @@ deck.initialize({
   // 自動的に次のスライドに遷移するまでの時間をミリ秒単位で指定します
   // 自動遷移しない場合は0に設定してください
   // スライド個別に設定したい場合は`data-autoslide`属性を指定します
-  autoSlide: 0,
+//  autoSlide: 0,
 
   // スライドの自動遷移が設定されている場合、
   // ユーザーが操作したらスライドの自動遷移をやめる
-  autoSlideStoppable: true,
+//  autoSlideStoppable: true,
 
   // スライドの自動遷移が設定されている場合、
   // スライドの遷移に使うメソッドを指定する
-  autoSlideMethod: Reveal.navigateNext,
+//  autoSlideMethod: Reveal.navigateNext,
 
   // スピーカーノートに表示されるカウントダウンタイマー
   // スライド単位の秒数を指定する
-  defaultTiming: 120,
+//  defaultTiming: 120,
 
   // マウスホイールでページを移動していい
-  mouseWheel: false,
+ // mouseWheel: false,
 
   // モバイル端末でアドレスバーを隠す
   // 最近のブラウザではあまり効きません...
-  hideAddressBar: true,
+//  hideAddressBar: true,
 
   // iframeのオーバーレイ表示のリンクを開く
   // リンク毎に`data-preview-link`または`data-preview-link="false"`を指定することでも実現できます
@@ -117,22 +117,22 @@ deck.initialize({
 
   // 遅延読み込みを開始する、表示中のスライドとの距離
   // つまり、表示中のページがここで指定された枚数まで近づいたらコンテンツをロードする
-  viewDistance: 3,
+//  viewDistance: 3,
 
   // パララックス背景画像
-  parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+//  parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
 
   // パララックス背景画像サイズ
-  parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+//  parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
 
   // スライド毎に移動するパララックス背景画像のピクセル数
   // - 指定されていない場合、自動計算されます
   // - 無効にする場合、0を指定してください
-  parallaxBackgroundHorizontal: null,
-  parallaxBackgroundVertical: null,
+//  parallaxBackgroundHorizontal: null,
+//  parallaxBackgroundVertical: null,
 
   // スライドに適用するCSSのボックスモデル
-  display: 'block',
+//  display: 'block',
   
     slideNumber: 'c/t',
 //    plugins: [Markdown],
