@@ -2,10 +2,6 @@
 
 ---
 
-<div class="tweet" data-src="https://twitter.com/o_ob/status/1441589725597364228"></div>
-
----
-
 - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
 - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
 - Item 3 <!-- .element: class="any-selector" -->
