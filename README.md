@@ -1,6 +1,5 @@
 # reveal-pon
 
-
 Slide Builder. Using GitHub eco system and reveal.js
 
 <!-- Please replace owner/repo name to your's -->
