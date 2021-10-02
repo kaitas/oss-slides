@@ -1,3 +1,6 @@
+# [DEMO](https://akihiko.shirai.as/oss-slides/)
+
+
 # reveal-pon
 
 Slide Builder. Using GitHub eco system and reveal.js
@@ -5,8 +8,6 @@ Slide Builder. Using GitHub eco system and reveal.js
 <!-- Please replace owner/repo name to your's -->
 ![](https://raw.githubusercontent.com/kaitas/oss-slides/gh-pages/preview.gif "Preview")
 
-<!-- Please replace owner/repo name to your's -->
-# [DEMO](https://akihiko.shirai.as/oss-slides/)
 
 
 # Feature
