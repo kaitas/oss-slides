@@ -9,7 +9,6 @@ Slide Builder. Using GitHub eco system and reveal.js
 ![](https://raw.githubusercontent.com/kaitas/oss-slides/gh-pages/preview.gif "Preview")
 
 
-
 # Feature
 
 - [x] build reveal.js with webpack 
@@ -18,6 +17,7 @@ Slide Builder. Using GitHub eco system and reveal.js
 - [x] Embed OGP Gif(animated!!)
 
 # Usage
+
 
 1. Click **Use this template** on GitHub
 2. edit **src/slide.md**
